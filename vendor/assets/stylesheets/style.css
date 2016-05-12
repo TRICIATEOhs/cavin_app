@@ -1,0 +1,196 @@
+/* color combination
+
+dark blue: #252839;
+dark gray: #677077;
+light gray: #b5b5b7;
+yellow: #f2b632;
+*/
+
+p { 
+	margin: 1 
+}
+
+
+@font-face {
+    font-family: Lane;
+    src: url('/assets/LANENAR_.ttf') format('truetype');
+}
+
+div {
+    font-family: Lane;
+}
+
+.navbar{
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0!important; /* this is to remove the spacing underneath navbar*/
+	position:relative;
+}
+
+.main-cover{
+	width: 100%;
+	height: 400px;
+	/* This is to add black overlay on the cover image*/
+	background: linear-gradient(
+                     rgba(20,20,20, .8), 
+                     rgba(20,20,20, .8)),
+                     url( "test3.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 50% 100%;
+    display:block;
+    position: relative;
+
+}
+
+#cover-text {
+	z-index: 100; /* if -1, text will be behind image */
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	right: 15%; /* the bigger the number, it will move more to the left*/
+	top: 30%; /* the smaller the number, it will move higher*/
+	text-align: left;
+}
+
+
+.bright-title {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 25pt;
+	color: #677077;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+
+.dark-title {
+	padding-top: 30px;
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 20pt;
+    color: #ffffff;
+    white-space: pre;
+    letter-spacing: 10px;
+}
+
+.parent-div {
+	/*position:relative;*/
+	border-top: 2px dashed #E5E7E9;
+}
+
+/* first item without border-top*/
+
+#child-about {
+	padding-top: 5px;
+    margin: 0 auto; 
+    text-align: center;
+    font-size:15pt;
+    color: #677077;
+}
+
+#founder-resize {
+	width: 180px;
+	height: 280px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+#child-preface {
+	padding: 15px 5px 15px 20px;
+    margin: 0 auto; 
+    text-align: left;
+    font-size:15pt;
+    color: #677077;
+    height: 75%;
+}
+
+.services-title {
+	font-size: 15pt;
+	color: #FFA500;
+}
+
+.all-services {
+	padding: 15px 5px 30px 20px;
+    margin: 0 auto; 
+	text-align: center;
+    font-size:12pt;
+    color: #677077;
+    height: 75%;
+}
+
+.services-resize {
+	text-align: center;
+	width: 60px;
+	height: 60px;
+}
+
+.services-name{
+	padding-bottom: 50px;
+}
+
+.icon-padding {
+	padding: 50px 0px 50px 0px;
+}
+
+#child-courses {
+	padding-top: 20px;
+    margin: 0 auto; 
+    text-align: center;
+    font-size:15pt;
+    color: #677077;
+    height: 75%;
+}
+
+.course-title {
+	padding: 0px 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.no-resize {
+	min-height: 240px;
+  	min-width: 240px;
+  	max-height: 240px;
+  	max-width: 240px;
+  	padding-bottom: 10px;
+}
+
+.icon-position {
+	text-align:center;
+}
+
+.icon-content {
+	padding: 0px 40px 0px 40px;
+	text-align:left;
+	font-size: 15pt;
+ 	color: #677077;
+}
+
+.icon-title {
+	font-size: 25pt;
+	font-weight: bold;
+}
+
+.test {
+	background-color: black;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right:0;
+    margin: 0;
+	height: auto !important;
+}
+
+
+
+
+
+
+
+
+

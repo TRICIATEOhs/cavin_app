@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # [Self-added] I think this is to ensure that things in public directory gets sent to production
+  config.serve_static_assets = true
 end
