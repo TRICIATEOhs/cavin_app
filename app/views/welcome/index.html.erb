@@ -4,7 +4,7 @@
 
 
     <!-- Start of navigation bar -->
-    <nav class="navbar navbar-default navbar-fixed-top" id="main-navbar">
+    <nav class="navbar transparent navbar-default navbar-fixed-top" id="main-navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -20,10 +20,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#about">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#preface">Preface</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#training-section">Training Courses</a></li>
+            <li><a href="#disclaimer">Disclaimer & Privacy</a></li>
+            <li><a href="#contact-us">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -35,193 +37,230 @@
 
 
     <!-- Start of main cover -->
-    <div class="main-cover">
-      <div id="cover-text"> <p>Something.com <br> loream ipsum some jag tuk nild snkf loram</p> </div>
+    <div class="container-fluid">
+      <div class="main-cover">
+        <div id="cover-text"> <p>Something.com <br> loream ipsum some jag tuk nild snkf loram</p> </div>
+      </div>
     </div>
     <!-- End of main cover -->
 
-    <div class="container"> <!-- start of container --> 
 
-      <!-- Start of about -->
+<!-- Start of about -->
+    <div class="container"> 
       <div class="row" id="about">
-        <div class="row">
-          <div class="col-sm-12 bright-title">About the Founder</div>
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-2"><%=image_tag("founder-img.jpg", id:"founder-resize")%></div>
-            <div class="col-sm-8" id="child-about"> 
-              <p>
-                The Founder of <b><font color="red">GetHRight.com.sg</font></b> has been a HR practitioner for more than 30 years heading HR practices in local and MNC organizations, including public-listed companies. Apart from HRM, he also specializes in corporate governance work.
-                <br><br>
-                The Founder holds both a Masters and Bachelors degree in Business (HR specialization), a Graduate Diploma in Management and was amongst the top students in his cohort. As a training practitioner, he has been an adjunct lecturer at a private School teaching undergraduate programmes. He had also obtained his ACTA qualifications from the Institute of Adult Learning, Singapore. 
-             </p>
-           </div>
-           <div class="col-sm-1"></div>
-          </div>  
-        </div> <!-- inner row -->
-      <div> <!-- outer row -->
-      <!-- End of about -->
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="bright-title">About the Founder</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
 
 
-      <!-- Start of preface -->
-      <div class="row parent-div" id="preface">
-        <div class="row">
-          <div class="col-sm-12 bright-title">Preface</div>
-          <div id="child-preface"> 
-
-            <div class="col-sm-6"><p>
-              Navigating the employment landscape in Singapore, particularly for HR practitioners is arguably not as straightforward as many would envisage.
-              <br><br>
-              In the course of my career, I had come across many diverse questions put up by HR practitioners seeking guidance on practical human resource management or employment related issues that they themselves face almost on a daily basis.    The solutions for some of these questions may not be readily obvious and may not even reside in prevailing labor laws which are themselves subject to different interpretations.
-              <br><br>
-              The purpose of setting up this <b><font color="red">“GetHRight”</font></b> portal is to offer some constructive views and insights into these questions gleaned from the knowledge and experience of its Founder.   It is the hope that the guidance given will be helpful to practitioners in arriving at some workable solutions specific to their unique situations and needs.
-            </p></div>
-
-            <div class="col-sm-6">
-              <p>If you have a particular question on HR management practices or employment related issue in Singapore, please email to <b><font color="red">founder@GetHRight.com.sg. </font></b>We will get back to you as soon as possible.  Your questions (and our response) will be on a private one2one basis.<br><br>
-              In your email, please also leave behind (optional) your:<br>
-              <ul>
-                <li>Name</li>
-                <li>Designation</li>
-                <li>Company's name</li>
-                <li>Brief nature of Company's business</li>
-              </uL>
-              </p>
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div id="child-about">
+                  <%=image_tag("founder-img.jpg", id:"founder-resize")%>
+                  <p>
+                    The Founder of <b><font color="red">GetHRight.com.sg</font></b> has been a HR practitioner for more than 30 years heading HR practices in local and MNC organizations, including public-listed companies. Apart from HRM, he also specializes in corporate governance work.
+                    <br><br>
+                    The Founder holds both a Masters and Bachelors degree in Business (HR specialization), a Graduate Diploma in Management and was amongst the top students in his cohort. As a training practitioner, he has been an adjunct lecturer at a private School teaching undergraduate programmes. He had also obtained his ACTA qualifications from the Institute of Adult Learning, Singapore. 
+                 </p>
+                </div>
             </div>
-          </div> <!-- child preface -->
-        </div><!-- inner row -->
-      <div> <!-- outer row -->
-      <!-- End of preface -->
+        </div>
+    </div>
+<!-- end of about -->
 
 
-      
-      <!-- Start of other services -->
+
+<!-- Start of preface -->
+    <div class="container"> 
+      <div class="row parent-div" id="preface">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="bright-title">Preface</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-6 text-center">
+                <div id="child-preface">
+                  <p>
+                    The Founder of <b><font color="red">GetHRight.com.sg</font></b> has been a HR practitioner for more than 30 years heading HR practices in local and MNC organizations, including public-listed companies. Apart from HRM, he also specializes in corporate governance work.
+                    <br><br>
+                    The Founder holds both a Masters and Bachelors degree in Business (HR specialization), a Graduate Diploma in Management and was amongst the top students in his cohort. As a training practitioner, he has been an adjunct lecturer at a private School teaching undergraduate programmes. He had also obtained his ACTA qualifications from the Institute of Adult Learning, Singapore. 
+                 </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <div id="child-preface">
+                  <p>If you have a particular question on HR management practices or employment related issue in Singapore, please email to <b><font color="red">founder@GetHRight.com.sg. </font></b>We will get back to you as soon as possible.  Your questions (and our response) will be on a private one2one basis.<br><br>
+                  In your email, please also leave behind (optional) your:<br>
+                  <ul>
+                    <li>Name</li>
+                    <li>Designation</li>
+                    <li>Company's name</li>
+                    <li>Brief nature of Company's business</li>
+                  </uL>
+                  </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- End of preface -->
+
+
+
+
+
+<!-- Start of other services -->
+    <div class="container"> 
       <div class="row parent-div" id="services">
-        <div class="row">
-          <div class="col-sm-12 bright-title">Services</div><br><br>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="bright-title">Our Services</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
 
-          <div class="row">
-              <div class="all-services">
-                <span class="services-title">Complimentary Services</span><br><br>
-                <div class="col-sm-3"></div>
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/career-guidance.png", class:"services-resize")%>
-                  <br>
-                  Career Guidance
-                </div>
-
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/employment-contract.png", class:"services-resize")%>
-                  <br>
-                  Employment Contract<br>
-                  <font size="2pt" color="#D1D0CE"><i>(General Review)</i></font>
-                </div>
-
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/cv-profile.png", class:"services-resize")%>
-                  <br>
-                  CV Profile<br>
-                  <font size="2pt" color="#D1D0CE"><i>(General Review)</i></font>
-                </div>
-                <div class="col-sm-3"></div>
-              </div>
-          </div>  
-
-          <br><br>
-
-          <div class="row">
-              <div class="all-services">
-                <span class="services-title">Chargeable Services</span><br><br>
-                <div class="col-sm-2"></div>
-                <!-- First column -->
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/cv-profile.png", class:"services-resize")%>
-                  <br>
-                  Customized CV<br>
-                  <font size="2pt" color="#D1D0CE"><i>(At a nominal fee to cover for time-cost)</i></font>
-
-                  <br><br><br>
-
-                  <%=image_tag("misc-icons/review-policies.png", class:"services-resize")%>
-                  <br>
-                  Review and Formulation of HR Policies<br>
-                  <br><br>
-                </div>
-
-                <!-- Second column -->
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/scorecard.png", class:"services-resize")%>
-                  <br>
-                  HR Scorecard<br>
-                  <font size="2pt" color="#D1D0CE"><i>(Performance Metrics)</i></font>
-
-                  <br><br><br><br>
-
-                  <%=image_tag("misc-icons/risk-management.png", class:"services-resize")%>
-                  <br>
-                  Enterprise Risk Management<br><br>
-                  <br><br>
-                </div>
-
-                <!-- Third column -->
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/hr-tools.png", class:"services-resize")%>
-                  <br>
-                  Developing HR Systems and Toolss<br>
-
-                  <br><br><br>
-
-                  <%=image_tag("misc-icons/compliance-audit.png", class:"services-resize")%>
-                  <br>
-                  HR Compliance Audit<br><br>
-                  <br><br>
-                </div>
-
-                <!-- Fourth column -->
-                <div class="col-sm-2">
-                  <%=image_tag("misc-icons/outplacement-services.png", class:"services-resize")%>
-                  <br>
-                  Outplacement Services<br>
-
-                  <br><br><br><br>
-
-                  <%=image_tag("misc-icons/training-courses.png", class:"services-resize")%>
-                  <br>
-                  Training Courses<br>
-                  <!--<a href="#about" class="btn btn-warning btn-xl">Find Out More</a>-->
-                  <br><br>
-                </div>
-                <div class="col-sm-2"></div>
-              </div>
-          </div>  
-
-        </div> <!-- inner row -->
-      <div> <!-- outer row -->
-      <!-- End of about -->
-
-      <!-- end other services-->
+    <div class="container"> 
+      <div class="row" id="services">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <span class="services-title">Complimentary Services</span>
+        </div>
+      </div>
+    </div>
 
 
-      <!-- Start of training courses -->
+    <div class="container">
+      <div class="row">
+        <div class="all-services">
+          <div class="col-lg-4 col-sm-12 text-center service-box">
+              <%=image_tag("misc-icons/career-guidance.png", class:"services-resize")%>
+              <br>
+              Career Guidance
+          </div>
+          <div class="col-lg-4 col-md-12 text-center service-box">
+            <%=image_tag("misc-icons/employment-contract.png", class:"services-resize")%>
+            <br>
+            Employment Contract<br>
+            <font size="2pt" color="#D1D0CE"><i>(General Review)</i></font>
+          </div>
+          <div class="col-lg-4 col-md-12 text-center service-box">
+            <%=image_tag("misc-icons/cv-profile.png", class:"services-resize")%>
+            <br>
+            CV Profile<br>
+            <font size="2pt" color="#D1D0CE"><i>(General Review)</i></font>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container"> 
+      <div class="row" id="services">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <span class="services-title">Chargeable Services</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="all-services">
+
+          <div class="col-lg-3 col-sm-6 text-center service-box">
+            <%=image_tag("misc-icons/cv-profile.png", class:"services-resize")%>
+            <br>
+            Customized CV<br>
+            <font size="2pt" color="#D1D0CE"><i>(At a nominal fee to cover for time-cost)</i></font>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 text-center service-box">
+            <%=image_tag("misc-icons/scorecard.png", class:"services-resize")%>
+            <br>
+            HR Scorecard<br>
+            <font size="2pt" color="#D1D0CE"><i>(Performance Metrics)</i></font>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center service-box">
+            <%=image_tag("misc-icons/review-policies.png", class:"services-resize")%>
+            <br>
+            Review and Formulation of HR Policies
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center service-box">
+            <%=image_tag("misc-icons/risk-management.png", class:"services-resize")%>
+            <br>
+            Enterprise Risk Management
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="all-services">
+
+          <div class="col-lg-3 col-sm-6 text-center service-box">
+            <%=image_tag("misc-icons/hr-tools.png", class:"services-resize")%>
+            <br>
+            Developing HR Systems and Toolss<br>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 text-center service-box">
+            <%=image_tag("misc-icons/compliance-audit.png", class:"services-resize")%>
+            <br>
+            HR Compliance Audit
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center service-box">
+            <%=image_tag("misc-icons/outplacement-services.png", class:"services-resize")%>
+            <br>
+            Outplacement Services
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center service-box">
+            <%=image_tag("misc-icons/training-courses.png", class:"services-resize")%>
+            <br>
+            Training Courses
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- End of other services -->
+
+<!-- Start of training courses -->
+    <div class="container-fluid">
       <div class="row">
         <div class="row training-main-cover" id="training-section">
-          <div class="col-sm-12 dark-title" style="padding: 40px 0px 0px 0px"><font size="8">Training Courses</font></div>
+          <div class="col-lg-12 dark-title" style="padding: 100px 0px 0px 0px"><font size="8">Training Courses</font></div>
           <div class="row">
-            <div class="col-sm-12 training-content dark-content">
+            <div class="col-lg-12 training-content dark-content">
               (requires short summary/introduction to the training courses)<br><br>
               <button type="button" class="btn btn-warning btn-xl accord-toggle" data-toggle="collapse" data-target="#training-details" aria-expanded="false"><font color="white" size="4">Find Out More</font></button> 
             </div>
           </div>  
         </div> <!-- inner row -->
       <div> <!-- outer row -->
-      <!-- End of training courses -->
+    </div>
+<!-- End of training courses -->
 
 
-      <!-- Start of collapsed training details -->
+<!-- Start of collapsed training details -->
+    <div class="container">
       <div class="row">
-        <div class="row collapse training-div-padding" id="training-details">
-          <div class="col-sm-12 bright-title">Training Courses</div>
-          <div class="well well-lg col-sm-12" style="padding: 10px 100px 10px 100px;">
+        <div class="row collapse divider-padding" id="training-details">
+          <div class="col-lg-12 bright-title">Training Courses <hr></div>
+          <div class="well well-lg col-lg-12" style="padding: 10px 50px 10px 50px;">
             <div class="row">
 
               <ul class="nav nav-tabs">
@@ -238,7 +277,7 @@
                 <div id="course1" class="tab-pane fade in active course-content">
                   <h3 class="course-title">Unleashing the Leadership Potential in You</h3>
 
-                    <div class="col-sm-6 ">
+                    <div class="col-lg-6 ">
 
                       <%= image_tag("course-images/workshop_unleashing_the_leadership_potential_in_you.png", class:"no-resize")%>
 
@@ -249,7 +288,7 @@
 
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <div class="list-group">
                         <div class="list-group-item list-group-item-warning">
@@ -281,7 +320,7 @@
                 <div id="course2" class="tab-pane fade course-content">
                   <h3 class="course-title">Business Ethics <font color="grey" size="4pt">- Doing the Right Thing</font></h3>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <%= image_tag("course-images/workshop_business_ethics.png", class:"no-resize")%>
 
@@ -293,7 +332,7 @@
 
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <div class="list-group">
                         <div class="list-group-item list-group-item-warning">
@@ -335,7 +374,7 @@
                 <div id="course3" class="tab-pane fade course-content">
                   <h3 class="course-title">Email Etiquette <font color="grey" size="4pt">- Getting the most out of on-line  communications</font></h3>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <%= image_tag("course-images/workshop_email_etiquette.png", class:"no-resize")%>
 
@@ -347,7 +386,7 @@
                       <br><br><br>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
 
                       <div class="list-group">
@@ -379,7 +418,7 @@
                 <div id="course4" class="tab-pane fade course-content">
                   <h3 class="course-title">Making Right Hiring Decisions <font color="grey" size="4pt">- Enhanced Interviewing skills</font></h3>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <%= image_tag("course-images/workshop_making_right_hiring_decisions.png", class:"no-resize")%>
 
@@ -391,7 +430,7 @@
                       <br><br><br>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <div class="list-group">
                         <div class="list-group-item list-group-item-warning">
@@ -451,7 +490,7 @@
                 <div id="course5" class="tab-pane fade course-content">
                   <h3 class="course-title">Performance Management System <font color="grey" size="4pt">- Effective Performance and Potential Management Skills</font></h3>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <%= image_tag("course-images/workshop_performance_management.png", class:"no-resize")%>
 
@@ -463,7 +502,7 @@
                       <br><br><br>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
 
                       <div class="list-group">
                         <div class="list-group-item list-group-item-warning">
@@ -500,61 +539,84 @@
       <div> <!-- outer row -->
       <!-- End of collapsed training details -->
 
+    </div> <!-- container -->
 
-      <!-- Start of vision & disclaimer & privacy -->
-      <div class="row" >
-        <div class="row absolute-div-padding" id="toggle-padding-element">
 
-          <div class="col-sm-4">
-            <p class="icon-position"><%= image_tag("misc-icons/vision-icon.png", height:"70px", width:"60px")%> <br>
-            <span class="icon-title">Vision</span></p>
-            <p class="icon-content">If you think this service has been helpful to you, please share it with like-minded HR folks. Ultimately, a HR fraternity can be forged amongst us; one that will be a bellwether of sorts for our local HR industry.<br><br>
-            Thank you for your interest and support.</p>
+
+<!-- Start of vision & disclaimer & privacy -->
+    <div class="container"> 
+      <div class="row" id="disclaimer">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="bright-title">What You Should Know</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row divider-padding"> 
+            <div class="col-lg-4 col-md-12 text-center">
+              <p class="icon-position"><%= image_tag("misc-icons/vision-icon.png", height:"70px", width:"60px")%> <br>
+              <span class="icon-title">Vision</span></p>
+              <p class="icon-content">If you think this service has been helpful to you, please share it with like-minded HR folks. Ultimately, a HR fraternity can be forged amongst us; one that will be a bellwether of sorts for our local HR industry.<br><br>
+              Thank you for your interest and support.</p>  
+            </div>
+
+            <div class="col-lg-4 col-md-12 text-center">
+              <p class="icon-position"><%= image_tag("misc-icons/disclaimer-icon.png", style:"padding: 15px 0px", height:"75px", width:"45px")%> <br>
+              <span class="icon-title">Disclaimer</span></p>
+              <p class="icon-content">The comments, views or feedback offered by the Founder are intended as general information only and should not be construed as an authoritative interpretation of the subject matter.  It is also not intended to substitute for legal guidance and should not be acted upon without seeking proper legal counsel or advice as circumstances will be unique in every case.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 text-center">
+              <p class="icon-position"><%= image_tag("misc-icons/privacy-icon.png", style:"padding: 15px 0px", height:"75px", width:"45px")%> <br>
+              <span class="icon-title">Privacy</span></p>
+              <p class="icon-content">Please note that that any of your personal information disclosed will be held in strict confidence and will not be shared to any party without your consent</p>
+            </div>
+        </div>
+    </div>
+<!-- End of vision & disclaimer & privacy -->
+
+
+<!-- start of footer -->
+    <div class="container-fluid">
+
+      <div class="row" id="contact-us">
+        <div class="row footer-main-cover">
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 contact text-center">
+              <font size="5" class="dark-title">Let's Get In Touch! <hr class="hr"></font>
+              <font size="3">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+              </font>
+            </div>
+            <div class="col-lg-3"></div>
           </div>
 
-          <div class="col-sm-4">
-            <p class="icon-position"><%= image_tag("misc-icons/disclaimer-icon.png", style:"padding: 15px 0px", height:"75px", width:"45px")%> <br>
-            <span class="icon-title">Disclaimer</span></p>
-            <p class="icon-content">The comments, views or feedback offered by the Founder are intended as general information only and should not be construed as an authoritative interpretation of the subject matter.  It is also not intended to substitute for legal guidance and should not be acted upon without seeking proper legal counsel or advice as circumstances will be unique in every case.</p>
+
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-2 col-md-12 contact text-center">
+              <font size="3">
+                <%=image_tag("contact-icons/phone-receiver.png", class:"contact-resize")%><br> 123-456-789
+              </font>
+            </div>
+            <div class="col-lg-2 col-md-12 contact">
+              <font size="3"><%=image_tag("contact-icons/envelope-of-white-paper.png", class:"contact-resize")%><br> feedback@hr.com
+              </font>
+            </div>
+            <div class="col-lg-4"></div>
           </div>
 
-          <div class="col-sm-4">
-            <p class="icon-position"><%= image_tag("misc-icons/privacy-icon.png", style:"padding: 15px 0px", height:"75px", width:"45px")%> <br>
-            <span class="icon-title">Privacy</span></p>
-            <p class="icon-content">Please note that that any of your personal information disclosed will be held in strict confidence and will not be shared to any party without your consent</p>
-
-          </div>
 
         </div> <!-- inner row -->
       <div> <!-- outer row -->
-      <!-- End of vision & disclaimer & privacy -->
 
-      <br><br>
-
-      <!-- Start of footer -->
-      <div class="row">
-        <div class="row footer-main-cover" id="training-section">
-          <div class="col-sm-3"></div>
-
-          <div class="col-sm-6 contact">
-            <font size="5"><b>Let's get in touch!</b></font><br><br><br>
-            <font size="3">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
-            <br><br><br>
-            (Contact Number)<br>
-            (Email Address)
-            <br><br><br>
-            (Social media?)
-            </font><br><br><br>
-          </div>
-
-          <div class="col-sm-3"></div>
-
-        </div> <!-- inner row -->
-      <div> <!-- outer row -->
-      <!-- End of footer -->
+    </div>
+<!-- end of footer -->
 
 
-    </div> <!-- End of container -->
 
   </body>
 
@@ -570,12 +632,26 @@ $( document ).ready(function() {
   });
 
 
-  //Remove padding (next element) when hidden div collapsed  
-  $( ".accord-toggle" ).click(function() {
-    $( "#toggle-padding-element" ).toggleClass( "absolute-div-padding");
-  });
+
+function remove_navbar_transparent() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#about').offset().top;
+    if (window_top > div_top) {
+        $('#main-navbar').removeClass('transparent');
+    } else {
+        $('#main-navbar').addClass('transparent');
+    }
+}
+
+$(function () {
+    $(window).scroll(remove_navbar_transparent);
+    remove_navbar_transparent();
+});
+
 
 });
+
+
 
 
 </script>
