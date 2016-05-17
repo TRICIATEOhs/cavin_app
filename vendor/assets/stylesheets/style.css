@@ -4,10 +4,12 @@ dark blue: #252839;
 dark gray: #677077;
 light gray: #b5b5b7;
 yellow: #f2b632;
+nice orange: #e75639;
 */
 
 p { 
-	margin: 1 
+	margin: 1;
+	max-height: 100%;
 }
 
 
@@ -20,12 +22,24 @@ div {
     font-family: Lane;
 }
 
+h4 {
+	font-weight: bold;
+}
+
 .navbar{
 	background-color: #FFFFFF;
 	border: 0;
 	border-radius: 0;
 	margin-bottom: 0!important; /* this is to remove the spacing underneath navbar*/
-	position:relative;
+	border-bottom: 1px solid #E5E4E2
+}
+
+.navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
+    background-color:#000;
+}
+
+.well {
+	background-color: #FFFFFF;
 }
 
 .main-cover{
@@ -58,9 +72,9 @@ div {
 
 .bright-title {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 	font-size: 25pt;
-	color: #677077;
+	color: #000000;
 	word-spacing: 5px;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -68,14 +82,20 @@ div {
 
 
 .dark-title {
-	padding-top: 30px;
-    width: 50%;
-    margin: 0 auto; 
-    text-align: center;
-    font-size: 20pt;
-    color: #ffffff;
-    white-space: pre;
-    letter-spacing: 10px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 25pt;
+	color: #FFFFFF;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.dark-content {
+	padding: 20px 50px 20px 50px;
+	font-size: 15pt;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .parent-div {
@@ -111,11 +131,11 @@ div {
 
 .services-title {
 	font-size: 15pt;
-	color: #FFA500;
+	color: #FFA500; /* orange */
 }
 
 .all-services {
-	padding: 15px 5px 30px 20px;
+	padding: 15px 5px 5px 20px;
     margin: 0 auto; 
 	text-align: center;
     font-size:12pt;
@@ -147,9 +167,26 @@ div {
 }
 
 .course-title {
-	padding: 0px 20px;
 	font-weight: bold;
-	color: #000000;
+}
+
+.course-content {
+	font-size: 13.5pt;
+}
+
+span.subheader {
+	font-size: 15pt;
+	color: #FFA500;
+	font-weight:bold;
+}
+
+.two-columns {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 57px;
+	column-gap: 57px;
+	-moz-column-gap: 57px;
 }
 
 .no-resize {
@@ -157,7 +194,8 @@ div {
   	min-width: 240px;
   	max-height: 240px;
   	max-width: 240px;
-  	padding-bottom: 10px;
+  	float: right;
+	margin: 10px;
 }
 
 .icon-position {
@@ -176,20 +214,87 @@ div {
 	font-weight: bold;
 }
 
-.test {
-	background-color: black;
-    position: absolute;
-    width: 100%;
+.training-main-cover {
+	width: 100%;
+	height: 200px;
     left: 0;
     right:0;
     margin: 0;
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("course-images/cover1.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 25% 35%;
+    display:block;
+    position: absolute;
 	height: auto !important;
+	overflow:hidden;
+}
+
+.training-content {
+	height: 200px;
+}
+
+/*Bump down div from absolute div*/
+.absolute-div-padding {
+	margin-top: 307px;
+}
+
+.training-div-padding {
+	margin-top:280px;
+}
+
+.test {
+	background-color: #FFFFFF;
+}
+
+/*
+.footer-main-cover {
+	width: 100%;
+	height: 100%;
+    left: 0;
+    right:0;
+    margin: 0;
+	background: linear-gradient(
+                     rgba(20,20,20, .8), 
+                     rgba(20,20,20, .8)),
+                     url("contact-cover2.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: 50% 75%;
+    display:block;
+    position: absolute;
+	height: auto !important;
+	overflow:hidden;
+
+}*/
+
+.footer-main-cover {
+	width: 100%;
+	height: 100%;
+    left: 0;
+    right:0;
+    margin: 0;
+	background-color: #ffffff;
+	background-size: cover;
+    display:block;
+    position: absolute;
+	height: auto !important;
+	overflow:hidden;
 }
 
 
+.contact {
+	text-align: center;
+	padding-top: 40px;
+	color: #000000;
+}
 
-
-
+.test {
+	background-color: #252839;
+}
 
 
 
