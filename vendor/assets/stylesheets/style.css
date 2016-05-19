@@ -19,6 +19,7 @@ p {
 
 div {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 13pt;
 }
 
 hr {
@@ -102,23 +103,32 @@ ul.nav a:hover { color: #fff !important; }
 
 .dark-content {
 	padding: 20px 50px 20px 50px;
-	font-size: 13pt;
 	color: #FFFFFF;
 	text-align: center;
-}
-
-.parent-div {
-	/*position:relative;*/
-	border-top: 2px dashed #E5E7E9;
 }
 
 /* first item without border-top*/
 
 #child-about {
-	padding-top: 5px;
-    margin: 0 auto; 
+    padding-bottom: 40px;
+}
+
+.about-resize {
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	position:relative;
+    top: calc(15%);
+}
+
+.rounded-icon {
+    border: 3px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    font-size:13pt;
+    background: #fff;
 }
 
 #founder-resize {
@@ -128,24 +138,33 @@ ul.nav a:hover { color: #fff !important; }
 	text-align: center;
 }
 
+.experience-div{
+	background-color: #FFA500;
+}
+
 #child-preface {
 	padding: 15px 5px 15px 20px;
     margin: 0 auto; 
     text-align: left;
-    font-size:13pt;
     height: 75%;
+}
+
+.service-box {
+    margin: 15px auto 0;
+    padding-bottom: 20px;
 }
 
 .services-title {
 	font-size: 13pt;
-	color: #FFA500; /* orange */
+	color: #ffffff;
+	font-weight: normal;
+	/*color: #FFA500; /* orange */
 }
 
 .all-services {
 	padding: 15px 5px 5px 20px;
     margin: 0 auto; 
 	text-align: center;
-    font-size:13pt;
     height: 75%;
 }
 
@@ -167,20 +186,10 @@ ul.nav a:hover { color: #fff !important; }
 	padding-top: 20px;
     margin: 0 auto; 
     text-align: center;
-    font-size:13pt;
     height: 75%;
 }
 
-/*.course-title {
-	font-weight: bold;
-}*/
-
-.course-content {
-	font-size: 13pt;
-}
-
 span.subheader {
-	font-size: 13pt;
 	color: #FFA500;
 	/*font-weight:bold;*/
 }
@@ -210,7 +219,6 @@ span.subheader {
 .icon-content {
 	padding: 0px 40px 0px 40px;
 	text-align:left;
-	font-size: 13pt;
 }
 
 .icon-title {
@@ -237,27 +245,6 @@ span.subheader {
 .training-content {
 	height: 200px;
 }
-
-/*
-.footer-main-cover {
-	width: 100%;
-	height: 100%;
-    left: 0;
-    right:0;
-    margin: 0;
-	background: linear-gradient(
-                     rgba(20,20,20, .8), 
-                     rgba(20,20,20, .8)),
-                     url("cover-img/contact-cover2.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-    background-position: 50% 75%;
-    display:block;
-    position: absolute;
-	height: auto !important;
-	overflow:hidden;
-
-}*/
 
 .footer-main-cover {
 	height: 100%;
@@ -298,10 +285,6 @@ span.subheader {
 	width:100%;
 }
 
-.service-box {
-    margin: 15px auto 0;
-    padding-bottom: 20px;
-}
 
 
 

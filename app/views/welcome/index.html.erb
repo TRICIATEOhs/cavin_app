@@ -1,3 +1,17 @@
+<!-- 
+
+ATTENTION !
+
+PUT PREFACE AS "ABOUT THE FOUNDER"
+THEN MAKE ABOUT THE FOUNDER EXPERIENCES INTO ICONS & USE A YELLOW THEMED DIVIDER WITH EITHER WHITE OR BLACK ICONS
+OR CREATE A CIRCULAR WHITE BORDER AROUND THE ICONS
+
+
+
+
+-->
+
+
 <html>
 
   <head>
@@ -25,7 +39,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#about">About</a></li>
-            <li><a href="#preface">Preface</a></li>
+            <li><a href="#experiences">Experiences</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#training-section">Training Courses</a></li>
             <li><a href="#disclaimer">Disclaimer & Privacy</a></li>
@@ -49,9 +63,56 @@
     <!-- End of main cover -->
 
 
-<!-- Start of about -->
+<!-- Start of About -->
     <div class="container"> 
       <div class="row" id="about">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="bright-title">About The Founder</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-6 text-center">
+                <div id="child-preface">
+                  <p>
+                    Navigating the employment landscape in Singapore, particularly for HR practitioners is arguably not as straightforward as many would envisage. <br><br>
+
+                    In the course of my career, I had come across many diverse questions put up by HR practitioners seeking guidance on practical human resource management or employment related issues that they themselves face almost on a daily basis.   The solutions for some of these questions may not be readily obvious and may not even reside in prevailing labor laws which are themselves subject to different interpretations.<br><br>
+
+                    The purpose of setting up this “GetHRight” portal is to offer some constructive views and insights into these questions gleaned from the knowledge and experience of its Founder.   It is the hope that the guidance given will be helpful to practitioners in arriving at some workable solutions specific to their unique situations and needs.
+                 </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <div id="child-preface">
+                  <p>
+
+                    If you have a particular question on HR management practices or employment related issue in Singapore, please email to <b><font color="red">founder@GetHRight.com.sg. </font></b>We will get back to you as soon as possible.  Your questions (and our response) will be on a private one2one basis.<br><br>
+                  In your email, please also leave behind (optional) your:<br>
+                  <ul>
+                    <li>Name</li>
+                    <li>Designation</li>
+                    <li>Company's name</li>
+                    <li>Brief nature of Company's business</li>
+                  </uL>
+                  </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- End of About -->
+
+
+
+<!-- OLD ABOUT
+    <div class="container"> 
+      <div class="row" id="preface">
         <div class="col-lg-8 col-lg-offset-2 text-center">
             <h2 class="bright-title">About the Founder</h2>
             <hr>
@@ -74,57 +135,97 @@
             </div>
         </div>
     </div>
-<!-- end of about -->
+ -->
 
 
 
-<!-- Start of preface -->
-    <div class="container"> 
-      <div class="row parent-div" id="preface">
+
+<!-- Start of experiences -->
+    <div class="container-fluid experience-div"> 
+      <div class="row" id="experiences">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="bright-title">Preface</h2>
-            <hr>
+            <h2 class="bright-title">Experiences</h2>
+            <hr class="hr-light">
         </div>
       </div>
     </div>
 
 
-    <div class="container">
+    <div class="container-fluid experience-div">
         <div class="row"> 
-            <div class="col-lg-6 text-center">
-                <div id="child-preface">
-                  <p>
-                    The Founder of <b><font color="red">GetHRight.com.sg</font></b> has been a HR practitioner for more than 30 years heading HR practices in local and MNC organizations, including public-listed companies. Apart from HRM, he also specializes in corporate governance work.
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div>
+                  
+                  <div class="col-lg-4 col-sm-12 text-center service-box">
+                    <div class="rounded-icon"><font size="12" class="about-resize" color="#FFA500">30</font></div>
                     <br><br>
-                    The Founder holds both a Masters and Bachelors degree in Business (HR specialization), a Graduate Diploma in Management and was amongst the top students in his cohort. As a training practitioner, he has been an adjunct lecturer at a private School teaching undergraduate programmes. He had also obtained his ACTA qualifications from the Institute of Adult Learning, Singapore. 
-                 </p>
+                    HR Practitioner for more than 30 years, heading HR practices in local and MNC Organizations, including public-listed companies
+                  </div>
+                  <div class="col-lg-4 col-md-12 text-center service-box">
+                    <div class="rounded-icon"><%=image_tag("about-icons/corporate-governance.png", class:"about-resize")%></div>
+                    <br><br>
+                    Specializes in Corporate Governance work, apart from HRM
+                  </div>
+                  <div class="col-lg-4 col-md-12 text-center service-box">
+                    <div class="rounded-icon"><%=image_tag("about-icons/masters-bachelors.png", class:"about-resize")%></div>
+                    <br><br>
+                    Holds both masters and bachelors degree in Business (HR Specialization)
+                  </div>
+
                 </div>
             </div>
-
-            <div class="col-lg-6 text-center">
-                <div id="child-preface">
-                  <p>If you have a particular question on HR management practices or employment related issue in Singapore, please email to <b><font color="red">founder@GetHRight.com.sg. </font></b>We will get back to you as soon as possible.  Your questions (and our response) will be on a private one2one basis.<br><br>
-                  In your email, please also leave behind (optional) your:<br>
-                  <ul>
-                    <li>Name</li>
-                    <li>Designation</li>
-                    <li>Company's name</li>
-                    <li>Brief nature of Company's business</li>
-                  </uL>
-                  </p>
-                </div>
-            </div>
-
         </div>
     </div>
-<!-- End of preface -->
+
+                      <!-- 
+1. hr PRACTITIONER for more than 30 years, heading HR practices in local and MNC organizations, including public-listed companies
+2. Specializes in corporate governance work, apart from HRM
+3. holds both masters and bachelors degree in business (HR specialization)
+4. graduate diploma in management and was amongst the top students in the cohort
+5. Adjunct lecturer at a private school teaching undergraduate programmes
+6. obtained ACTA qualifications form the Insticute of Adult Learning, Singapore
+
+white circle border around the icons
+                -->
+
+    <div class="container-fluid experience-div">
+        <div class="row"> 
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div>
+                  
+                  <div class="col-lg-4 col-sm-12 text-center service-box">
+                    <div class="rounded-icon"><%=image_tag("about-icons/top-in-cohort.png", class:"about-resize")%></div>
+                    <br><br>
+                    Graduate Diploma in Management and was amongst the top students in the cohort
+                  </div>
+                  <div class="col-lg-4 col-md-12 text-center service-box">
+                    <div class="rounded-icon"><%=image_tag("about-icons/adjunct-lecturer.png", class:"about-resize")%></div>
+                    <br><br>
+                    Adjunct lecturer at a private school teaching undergrade programmes
+                  </div>
+                  <div class="col-lg-4 col-md-12 text-center service-box">
+                    <div class="rounded-icon"><font size="6.5" class="about-resize" color="#FFA500" style="top: calc(25%);">ACTA</font></div>
+                    <br><br>
+                    Obtained Advanced Certificate in Training and Assessment (ACTA) qualifications from the Institute of Adult Learning, Singapore
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- end of experiences -->
+
+
+
+
 
 
 <!-- Start of other services -->
     <div class="container"> 
-      <div class="row parent-div" id="services">
+      <div class="row" id="services">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="bright-title">Our Services</h2>
+            <h2 class="bright-title">Services</h2>
             <hr>
         </div>
       </div>
@@ -133,7 +234,7 @@
     <div class="container"> 
       <div class="row" id="services">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <span class="services-title">Complimentary Services</span>
+            <span class="label label-warning services-title">Complimentary Services</span>
         </div>
       </div>
     </div>
@@ -168,7 +269,7 @@
     <div class="container"> 
       <div class="row" id="services">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <span class="services-title">Chargeable Services</span>
+            <span class="label label-danger services-title">Chargeable Services</span>
         </div>
       </div>
     </div>
