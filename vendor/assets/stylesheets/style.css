@@ -39,7 +39,7 @@ hr.hr-light {
 }
 
 .navbar{
-	padding-left: 50px;
+	padding: 0px 20px 0px 20px;
 	background-color: #FFFFFF;
 	border: 0;
 	border-radius: 0;
@@ -54,12 +54,7 @@ hr.hr-light {
     border-bottom: 3px solid #FFA500;
 }
 
-
-/*.navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
-    background-color:#fff;
-}*/
-
-.navbar ul.nav a:hover { 
+.navbar a:hover { 
 	color: #FFA500 !important; 
 }
 
@@ -80,10 +75,22 @@ hr.hr-light {
 	padding-bottom: 40px;
 }
 
-
 .container-fluid {
 	padding: 0;
 	width:100%;
+}
+
+.example .pagination>li>a,
+.example .pagination>li>span {
+  border: 0px;
+  color: #000;
+}
+
+.pagination>li.active>a,
+.pagination>li.active>a:hover,
+.pagination>li.active>a:focus {
+  background: #FFA500;
+  color: #fff;
 }
 
 .well {
@@ -301,7 +308,6 @@ span.subheader {
 .misc-div {
 	background-color: #222;
 }
-
 
 
 
