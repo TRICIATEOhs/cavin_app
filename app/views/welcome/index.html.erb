@@ -96,36 +96,6 @@
 
 
 
-<!-- OLD ABOUT
-    <div class="container"> 
-      <div class="row" id="preface">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="bright-title">About the Founder</h2>
-            <hr>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row"> 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <div id="child-about">
-                  <%=image_tag("founder-img.jpg", id:"founder-resize")%>
-                  <p>
-                    The Founder of <b><font color="red">GetHRight.com.sg</font></b> has been a HR practitioner for more than 30 years heading HR practices in local and MNC organizations, including public-listed companies. Apart from HRM, he also specializes in corporate governance work.
-                    <br><br>
-                    The Founder holds both a Masters and Bachelors degree in Business (HR specialization), a Graduate Diploma in Management and was amongst the top students in his cohort. As a training practitioner, he has been an adjunct lecturer at a private School teaching undergraduate programmes. He had also obtained his ACTA qualifications from the Institute of Adult Learning, Singapore. 
-                 </p>
-                </div>
-            </div>
-        </div>
-    </div>
- -->
-
-
-
-
 <!-- Start of experiences -->
     <div class="container-fluid experience-div"> 
       <div class="row" id="experiences">
@@ -190,10 +160,10 @@
         </div>
     </div>
 
-    <div class="container-fluid misc-div">
+    <!-- <div class="container-fluid dark-div">
         <div class="row divider-padding"> 
         </div>
-    </div>
+    </div>-->
 
  <!-- end of experiences -->
 
@@ -327,7 +297,7 @@
         <div class="row divider-padding"> 
           <div class="col-lg-12 training-content dark-content">
             (requires short summary/introduction to the training courses)<br><br>
-            <button type="button" class="btn btn-warning btn-xl accord-toggle" data-toggle="collapse" data-target="#training-details" aria-expanded="false"><font color="white" size="4">Find Out More</font></button> 
+            <button type="button" class="btn btn-warning btn-xl accord-toggle" id="find-out-more-btn" data-toggle="collapse" data-target="#training-details" aria-expanded="false"><font color="white" size="4">Find Out More</font></button> 
           </div>
         </div>
     </div>
@@ -339,10 +309,10 @@
 <!-- Start of collapsed training details -->
     <div class="container">
       <div class="row">
-        <div class="row divider-padding" id="training-details"> <!-- add back the collapse!!!!!! -->
+        <div class="row collapse divider-padding" id="training-details"> 
           <div class="col-lg-12 bright-title">Training Courses <hr></div>
           <!-- <div class="well well-lg col-lg-12" style="padding: 10px 50px 10px 50px;"> -->
-            <div class="row example">
+            <div class="row" style="padding: 0px 50px;">
              
              <ul class="nav nav-tabs" id="training-tabs">
                 <li class="active"><a data-toggle="tab" href="#course1">Unleashing the Leadership Potential in You</a></li>
@@ -616,6 +586,8 @@
 
              </div> <!-- row -->
           <!--</div> <!-- well -->
+
+
         </div> <!-- inner row -->
       <div> <!-- outer row -->
       <!-- End of collapsed training details -->
@@ -623,6 +595,11 @@
 
     </div> <!-- container -->
 
+
+
+    <div class="container"> 
+        <div class="parent-div"></div>
+    </div>
 
 
 <!-- Start of vision & disclaimer & privacy -->
@@ -713,27 +690,23 @@ $( document ).ready(function() {
     offset: 50
   });
 
+  //to make navbar transparent at the top but opaque at the bottom
+  function remove_navbar_transparent() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('#about').offset().top;
+      if (window_top > div_top) {
+          $('#main-navbar').removeClass('transparent');
+      } else {
+          $('#main-navbar').addClass('transparent');
+      }
+  }
 
-
-function remove_navbar_transparent() {
-    var window_top = $(window).scrollTop();
-    var div_top = $('#about').offset().top;
-    if (window_top > div_top) {
-        $('#main-navbar').removeClass('transparent');
-    } else {
-        $('#main-navbar').addClass('transparent');
-    }
-}
-
-$(function () {
-    $(window).scroll(remove_navbar_transparent);
-    remove_navbar_transparent();
-});
-
+  $(function () {
+      $(window).scroll(remove_navbar_transparent);
+      remove_navbar_transparent();
+  });
 
 });
-
-
 
 
 </script>

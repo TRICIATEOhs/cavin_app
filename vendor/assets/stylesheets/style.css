@@ -80,19 +80,6 @@ hr.hr-light {
 	width:100%;
 }
 
-.example .pagination>li>a,
-.example .pagination>li>span {
-  border: 0px;
-  color: #000;
-}
-
-.pagination>li.active>a,
-.pagination>li.active>a:hover,
-.pagination>li.active>a:focus {
-  background: #FFA500;
-  color: #fff;
-}
-
 .well {
 	background-color: #FFFFFF;
 }
@@ -132,7 +119,7 @@ hr.hr-light {
 
 .dark-title {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 	font-size: 20pt;
 	color: #FFFFFF;
 }
@@ -313,10 +300,18 @@ span.subheader {
 	height: 40px;
 }
 
-.misc-div {
+.dark-div {
 	background-color: #222;
 }
 
+.bright-div {
+	background-color: #FFA500;
+}
+
+.parent-div {
+	border-bottom: 1px solid #000;
+	margin-top: -5px;
+}
 
 
 
