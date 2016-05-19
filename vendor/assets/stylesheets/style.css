@@ -220,6 +220,10 @@ hr.hr-light {
     height: 75%;
 }
 
+.course-title {
+	padding: 0px 15px ;
+}
+
 span.subheader {
 	color: #FFA500;
 	/*font-weight:bold;*/
@@ -229,9 +233,9 @@ span.subheader {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
-	-webkit-column-gap: 57px;
-	column-gap: 57px;
-	-moz-column-gap: 57px;
+	-webkit-column-gap: 62px;
+	column-gap: 62px;
+	-moz-column-gap: 62px;
 }
 
 .no-resize {
@@ -275,6 +279,10 @@ span.subheader {
 
 .training-content {
 	height: 200px;
+}
+
+#training-tabs{
+	font-size: 10pt;
 }
 
 .footer-main-cover {
