@@ -18,7 +18,14 @@ html {
 	overflow-x: hidden;
 }
 
+body {
+	font-family: 'Poppins', serif;
+	font-size: 12pt;
+}
 
+
+
+/*
 @font-face {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
@@ -27,7 +34,7 @@ div {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 13pt;
 }
-
+*/
 hr {
     max-width: 50px;
     border-color: #FFA500;
@@ -51,7 +58,7 @@ hr.hr-light {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #FFA500;
     background-color: #fff;
-    border-bottom: 3px solid #FFA500;
+    border-bottom: 2px solid #FFA500;
 }
 
 .navbar a:hover { 
@@ -85,29 +92,40 @@ hr.hr-light {
 }
 
 .main-cover{
-	height: 700px;
+	height: 730px;
 	/* This is to add black overlay on the cover image*/
 	background: linear-gradient(
-                     rgba(20,20,20, .8), 
-                     rgba(20,20,20, .8)),
-                     url( "cover-img/contact-cover.jpg");
+                     rgba(20,20,20, .60), 
+                     rgba(20,20,20, .60)),
+                     url( "cover-img/cover-tie.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
-    background-position: 25% 80%;
+    background-position: 90% 10%;
     display:block;
 
 }
 
 #cover-text {
-	z-index: 100; /* if -1, text will be behind image */
-	position: absolute;
-	color: white;
+	width: 100%;
 	font-size: 24px;
-	right: 15%; /* the bigger the number, it will move more to the left*/
-	top: 30%; /* the smaller the number, it will move higher*/
-	text-align: left;
+	text-align: center;
+	font-family: 'MyWebFont';
+	font-size: 80pt;
+	color: #fff;
+	border: 2px solid white;
+	border-left:1em solid transparent;
+    border-right:1em solid transparent;
+	margin-top: 250px;
 }
 
+.test {
+	background-color: #222;
+}
+
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('bowhouse/Bowhouse-Light.otf') format("opentype");
+}
 
 .bright-title {
 	text-align: center;
@@ -239,8 +257,7 @@ span.subheader {
 }
 
 .icon-content {
-	padding: 0px 40px 0px 40px;
-	text-align:left;
+	padding: 0px 40px;
 }
 
 .icon-title {
@@ -255,7 +272,7 @@ span.subheader {
 	background: linear-gradient(
                      rgba(20,20,20, .8), 
                      rgba(20,20,20, .8)),
-                     url("course-images/cover1.jpg");
+                     url("cover-img/cover-courses.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: 25% 35%;
@@ -309,8 +326,10 @@ span.subheader {
 }
 
 .parent-div {
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #D1D0CE;
 	margin-top: -5px;
+	position: relative;
+	z-index: -100;
 }
 
 
