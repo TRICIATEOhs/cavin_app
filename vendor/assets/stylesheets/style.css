@@ -19,11 +19,10 @@ html {
 }
 
 body {
-	font-family: 'Poppins', serif;
-	font-size: 12pt;
+	font-family: 'Lato', serif;
+	font-size: 15pt;
+	color: #000;
 }
-
-
 
 /*
 @font-face {
@@ -45,7 +44,14 @@ hr.hr-light {
 	border-color: #fff;
 }
 
+hr.hr-long {
+    max-width: 80%;
+    border-color: #f2f2f2;
+    border-width: 1px;
+}
+
 .navbar{
+	font-size: 12pt;
 	padding: 0px 20px 0px 20px;
 	background-color: #FFFFFF;
 	border: 0;
@@ -79,7 +85,7 @@ hr.hr-light {
 .navbar.transparent ul.nav a:hover { color: #fff !important; }
 
 .divider-padding {
-	padding-bottom: 40px;
+	padding-bottom: 140px;
 }
 
 .container-fluid {
@@ -100,45 +106,50 @@ hr.hr-light {
                      url( "cover-img/cover-tie.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
-    background-position: 90% 10%;
+    background-position: center;
     display:block;
 
 }
 
 #cover-text {
 	width: 100%;
-	font-size: 24px;
 	text-align: center;
-	font-family: 'MyWebFont';
-	font-size: 80pt;
+	font-family: 'DiscoFont';
+	font-size: 5vw;
 	color: #fff;
 	border: 2px solid white;
 	border-left:1em solid transparent;
     border-right:1em solid transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
 	margin-top: 250px;
 }
 
-.test {
-	background-color: #222;
+#child-cover-text {
+	font-family: 'Poppins', serif;
+	font-size: 1vw;
+	color: #fff;
 }
 
 @font-face {
-  font-family: 'MyWebFont';
-  src:  url('bowhouse/Bowhouse-Light.otf') format("opentype");
+  font-family: 'DiscoFont';
+  src:  url('disco/DISCO___.ttf') format("truetype");
 }
 
 .bright-title {
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 100px;
 	font-size: 20pt;
+	font-weight: bold;
 	color: #000000;
 }
 
 
 .dark-title {
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 100px;
 	font-size: 20pt;
+	font-weight: bold;
 	color: #FFFFFF;
 }
 
@@ -175,19 +186,20 @@ hr.hr-light {
 }
 
 .experience-div{
-	background-color: #FFA500;
+	background-color: #f2f2f2;
 }
 
 #child-about {
-	padding: 15px 5px 15px 20px;
+	/*padding: 15px 5px 15px 20px;*/
     margin: 0 auto; 
-    text-align: left;
+    text-align: center;
     height: 75%;
 }
 
 .service-box {
     margin: 15px auto 0;
     padding-bottom: 20px;
+    font-size: 12pt;
 }
 
 .services-title {
@@ -206,8 +218,8 @@ hr.hr-light {
 
 .services-resize {
 	text-align: center;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 }
 
 .services-name{
@@ -234,6 +246,10 @@ span.subheader {
 	/*font-weight:bold;*/
 }
 
+.course-content {
+	font-size: 12pt;
+}
+
 .two-columns {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
@@ -258,6 +274,7 @@ span.subheader {
 
 .icon-content {
 	padding: 0px 40px;
+	font-size: 13pt;
 }
 
 .icon-title {
@@ -307,7 +324,13 @@ span.subheader {
 
 .contact {
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+.contact-info {
+	text-align: center;
+	padding-bottom: 100px;
 	color: #ffffff;
 }
 
