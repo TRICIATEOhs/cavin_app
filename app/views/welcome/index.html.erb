@@ -115,7 +115,7 @@
                 <div>
                   
                   <div class="col-lg-4 col-sm-12 text-center service-box">
-                    <div class="rounded-icon"><font size="6" class="about-resize" color="#b5b5b7">30</font></div>
+                    <div class="rounded-icon"><font size="6" class="about-resize" color="#6F6F71">30</font></div>
                     <br><br>
                     HR Practitioner for more than 30 years, heading HR practices in local and MNC Organizations, including public-listed companies
                   </div>
@@ -152,7 +152,7 @@
                     Adjunct lecturer at a private school teaching undergrade programmes
                   </div>
                   <div class="col-lg-4 col-md-12 text-center service-box">
-                    <div class="rounded-icon"><font size="5" class="about-resize" color="#b5b5b7" style="top: calc(25%);">ACTA</font></div>
+                    <div class="rounded-icon"><font size="5" class="about-resize" color="#6F6F71" style="top: calc(25%);">ACTA</font></div>
                     <br><br>
                     Obtained Advanced Certificate in Training and Assessment (ACTA) qualifications from the Institute of Adult Learning, Singapore
                   </div>
@@ -296,7 +296,7 @@
 <!-- Start of training courses -->
      <div class="container-fluid training-main-cover" id="training-section">
       <div class="col-lg-12 dark-title"><font size="8">Training Courses</font></div>
-        <div class="row divider-padding"> 
+        <div class="row"> 
           <div class="col-lg-12 training-content dark-content">
             (requires short summary/introduction to the training courses)<br><br>
             <button type="button" class="btn btn-warning btn-xl accord-toggle" id="find-out-more-btn" data-toggle="collapse" data-target="#training-details" aria-expanded="false"><font color="white" size="4">Find Out More</font></button> 
@@ -311,10 +311,9 @@
 <!-- Start of collapsed training details -->
     <div class="container">
       <div class="row">
-        <div class="row collapse divider-padding" id="training-details"> 
-          <div class="col-lg-12 bright-title">Training Courses <hr></div>
+        <div class="row collapse divider-padding courses" id="training-details"> 
           <!-- <div class="well well-lg col-lg-12" style="padding: 10px 50px 10px 50px;"> -->
-            <div class="row" style="padding: 0px 50px;">
+            <div class="row" style="padding: 50px 50px;">
              
              <ul class="nav nav-tabs" id="training-tabs">
                 <li class="active"><a data-toggle="tab" href="#course1">Unleashing the Leadership Potential in You</a></li>
@@ -330,10 +329,7 @@
                 <div id="course1" class="tab-pane fade in active course-content">
                   <h3 class="course-title">Unleashing the Leadership Potential in You</h3>
 
-                    <div class="col-lg-6 col-xs-6">
-
-                      <%= image_tag("course-images/workshop_unleashing_the_leadership_potential_in_you.png", class:"no-resize")%>
-
+                    <div class="col-lg-6">
                       <span class="subheader">Introduction</span><br>
                       What distinguishes Great companies from just Good companies is that their Leaders are also models for their staff and are committed to developing talent. Developing and sustaining a robust leadership pipeline continues to be the topmost priority and a major challenge in today’s organizations in the face of a VUCA environment.<br><br>
                       “My main job at GE was to develop and nourish talent…The future will not belong to Managers or those who can make the numbers dance.  The world will belong to passionate driven leaders – people who not only have enormous amount of energy but who can also energize those whom they lead” (J Welch) <br><br>
@@ -341,7 +337,7 @@
                       <br><br><br>
                     </div>
 
-                    <div class="col-lg-6 col-xs-6">
+                    <div class="col-lg-6">
 
                       <div class="list-group">
                         <div class="list-group-item list-group-item-warning">
@@ -374,9 +370,6 @@
                   <h3 class="course-title">Business Ethics <font color="grey" size="4pt">- Doing the Right Thing</font></h3>
 
                     <div class="col-lg-6">
-
-                      <%= image_tag("course-images/workshop_business_ethics.png", class:"no-resize")%>
-
                       <span class="subheader">Introduction</span><br>
                       In recent times, there has been much discourse on the need for good corporate governance practices to protect organizations against the unscrupulous actions of business people and even the unconscionable behavior of some misguided employees.<br><br>
                       The usual route to deal with this is to tighten further the rules by introducing even more legislation or policies.  The argument against this route is that no matter how much regulations or risk management systems there are in place, there will always be ways to over-ride these controls, especially if there is no personal resolve to act ethically.<br><br>
@@ -428,9 +421,6 @@
                   <h3 class="course-title">Email Etiquette <font color="grey" size="4pt">- Getting the most out of on-line  communications</font></h3>
 
                     <div class="col-lg-6">
-
-                      <%= image_tag("course-images/workshop_email_etiquette.png", class:"no-resize")%>
-
                       <span class="subheader">Introduction</span><br>
                       The advent of electronic mail or email probably ranks highest in the list of greatest technological inventions in this era.  The ubiquitous use of email has a far-reaching impact on how we communicate with others. At the same time, it is also the most often taken for granted.  The resultant effect is a litany of problems in miscommunications, loss in efficiency, personal and organizational conflicts, damaged reputations and creating a festering ground for litigation.
                       <br><br>
@@ -472,9 +462,6 @@
                   <h3 class="course-title">Making Right Hiring Decisions <font color="grey" size="4pt">- Enhanced Interviewing skills</font></h3>
 
                     <div class="col-lg-6">
-
-                      <%= image_tag("course-images/workshop_making_right_hiring_decisions.png", class:"no-resize")%>
-
                       <span class="subheader">Introduction</span><br>
                       Hiring a new employee is a major investment for any organization, not only in terms of costs but also as a predictor for future organizational performance.<br><br>
                       This workshop is designed to equip just about everyone who has a responsibility for hiring, and not just HR practitioners. The fallacy is assuming that everyone has an innate ability to size up potential candidates and make the right hiring decisions. 
@@ -489,25 +476,25 @@
                         <div class="list-group-item list-group-item-warning">
                           <span class="subheader">Key Takeaways</span><br>
                           <ol>
-                            <li>Preparing for Interviewing – Defining the Job requirements</li>
+                            <li>Preparing for interviewing – Defining the job requirements</li>
                             <ul>
                               <li>Defining KSFs</li>
                               <li>Differentiating competencies, behaviours and technical skills</li>
-                              <li>Job Description as Anchor</li>
+                              <li>Job description asaAnchor</li>
                             </ul>
 
                             <li>Preparing the interview – Structure, roles and questions</li>
                             <ul>
-                              <li>Interview Structure</li>
+                              <li>Interview structure</li>
                               <li>Framing interview questions</li>
                               <li>Assigning roles</li>
                             </ul>
 
                             <li>Conducting the interview</li>
                             <ul>
-                              <li>Structured Format vs Flexibility</li>
+                              <li>Structured format vs flexibility</li>
                               <li>Avoiding interview taboos</li>
-                              <li>Acting listening <font color="red">ACTIVE LISTNING?</font></li>
+                              <li>Active listening</li>
                             </ul>
 
                             <li>Final selection</li>
@@ -544,9 +531,6 @@
                   <h3 class="course-title">Performance Management System <font color="grey" size="4pt">- Effective Performance and Potential Management Skills</font></h3>
 
                     <div class="col-lg-6">
-
-                      <%= image_tag("course-images/workshop_performance_management.png", class:"no-resize")%>
-
                       <span class="subheader">Introduction</span><br>
                       This program presents the performance appraisal system as an opportunity to strengthen the performance of those you manage and to develop a better understanding between employees and their appraisers in the process.  It is structured to provide the nexus between People, Strategy and Performance from goal-setting to performance delivery using a balanced assessment approach that is aligned to both the employee’s and organization’s interests.
                       <br><br>
@@ -599,8 +583,9 @@
 
 
 
-    <div class="container"> 
-        <div class="parent-div"></div>
+    <div class="container text-center"> 
+        <div class="courses-break-div"></div>
+        <div id="toggle-glyphicon" class="glyphicon glyphicon-triangle-bottom" style="cursor:pointer"></div>
     </div>
 
 
@@ -672,24 +657,16 @@
               <span class="dark-title">Let's Get In Touch! <hr class="hr"></span>
               <span class="icon-content">Do you have a particular question on HR management practices or employment related issues in Singapore? That's great! <br><br>Give us a call or send us an email and we will get back to you as soon as possible! Your questions (and our response) will be on a private one2one basis!
               </span>
-              <hr>
             </div>
             <div class="col-lg-3"></div>
           </div>
 
 
           <div class="row">
-            <div class="col-lg-4 col-xs-1"></div>
-            <div class="col-lg-2 col-xs-5 contact-info text-center">
-              <font size="3">
-                <%=image_tag("contact-icons/phone-receiver.png", class:"contact-resize")%><br> 123-456-789
-              </font>
-            </div>
-            <div class="col-lg-2 col-xs-5 contact-info">
+            <div class="col-lg-12 contact-info text-center">
               <font size="3"><%=image_tag("contact-icons/envelope-of-white-paper.png", class:"contact-resize")%><br> feedback@hr.com
               </font>
             </div>
-            <div class="col-lg-4 col-xs-1"></div>
           </div>
 
 
@@ -730,7 +707,41 @@ $( document ).ready(function() {
       remove_navbar_transparent();
   });
 
-});
+
+  /*
+
+if($("#training-details").is(":visible")) 
+  {
+alert("fds");
+  }     
+else
+  {
+alert("no");
+  }
+
+
+
+    This is to check the state of the collapsed courses
+  */
+
+
+
+
+  $('#toggle-glyphicon').hide();
+
+  $( "#find-out-more-btn" ).click(function() {
+    $('#toggle-glyphicon').show();
+
+  }); //find out more
+
+
+  $("#toggle-glyphicon").click(function() {
+      $('#find-out-more-btn').click();
+      $('#toggle-glyphicon').hide();
+  });
+
+
+}); //end document ready
 
 
 </script>

@@ -51,6 +51,14 @@ hr.hr-long {
     border-width: 1px;
 }
 
+hr.hr-mini {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	max-width: 50px;
+	border-width: 2px;
+	border-color: #FFA500;
+}
+
 .navbar{
 	font-size: 12pt;
 	padding: 0px 20px 0px 20px;
@@ -87,6 +95,10 @@ hr.hr-long {
 
 .divider-padding {
 	padding-bottom: 140px;
+}
+
+.divider-padding.courses {
+	padding-bottom: 50px;
 }
 
 .container-fluid {
@@ -155,7 +167,6 @@ hr.hr-long {
 }
 
 .dark-content {
-	padding: 20px 50px 20px 50px;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -170,7 +181,7 @@ hr.hr-long {
 }
 
 .rounded-icon {
-    border: 1px solid #b5b5b7;
+    border: 1px solid #6F6F71;
     display: inline-block;
     border-radius: 50%;
     width: 70px;
@@ -240,7 +251,8 @@ hr.hr-long {
 }
 
 .course-title {
-	padding: 0px 15px ;
+	padding: 0px 15px;
+	color: #000;
 }
 
 span.subheader {
@@ -261,14 +273,14 @@ span.subheader {
 	-moz-column-gap: 62px;
 }
 
-.no-resize {
+/*.no-resize {
 	min-height: 240px;
   	min-width: 240px;
   	max-height: 240px;
   	max-width: 240px;
   	float: right;
 	margin: 10px;
-}
+}*/
 
 .icon-position {
 	text-align:center;
@@ -285,7 +297,6 @@ span.subheader {
 }
 
 .training-main-cover {
-	height: 200px;
     left: 0;
     right:0;
     margin: 0;
@@ -333,6 +344,7 @@ span.subheader {
 
 .contact-info {
 	text-align: center;
+	padding-top: 50px;
 	padding-bottom: 100px;
 	color: #ffffff;
 }
@@ -351,7 +363,7 @@ span.subheader {
 	background-color: #FFA500;
 }
 
-.parent-div {
+.courses-break-div {
 	border-bottom: 1px solid #D1D0CE;
 	margin-top: -5px;
 	position: relative;
