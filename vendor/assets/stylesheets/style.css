@@ -6,6 +6,7 @@ light gray: #b5b5b7;
 yellow: #f2b632;
 
  #FFA500; orange 
+ darker grey on grey background: rgb(102, 102, 102);
 */
 
 p { 
@@ -21,7 +22,7 @@ html {
 body {
 	font-family: 'Lato', serif;
 	font-size: 15pt;
-	color: #000;
+	color: rgb(102, 102, 102);
 }
 
 /*
@@ -162,20 +163,20 @@ hr.hr-long {
 
 .about-resize {
 	text-align: center;
-	width: 60px;
-	height: 60px;
+	width: 45px;
+	height: 45px;
 	position:relative;
     top: calc(15%);
 }
 
 .rounded-icon {
-    border: 3px solid #fff;
+    border: 1px solid #b5b5b7;
     display: inline-block;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     text-align: center;
-    background: #fff;
+
 }
 
 #founder-resize {
@@ -200,6 +201,7 @@ hr.hr-long {
     margin: 15px auto 0;
     padding-bottom: 20px;
     font-size: 12pt;
+    /*color: rgb(102, 102, 102);*/
 }
 
 .services-title {
@@ -279,6 +281,7 @@ span.subheader {
 
 .icon-title {
 	font-size: 20pt;
+	color: #000;
 }
 
 .training-main-cover {

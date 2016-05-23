@@ -25,12 +25,25 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#training-section">Training Courses</a></li>
-            <li><a href="#disclaimer">Disclaimer & Privacy</a></li>
-            <li><a href="#contact-us">Contact</a></li>
+            <li><a href="#about" class="hidden-xs">About</a></li>
+            <li><a href="#about" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
+
+            <li><a href="#portfolio" class="hidden-xs">Portfolio</a></li>
+            <li><a href="#portfolio" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a></li>
+
+            <li><a href="#services" class="hidden-xs">Services</a></li>
+            <li><a href="#services" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Services</a></li>
+
+            <li><a href="#training-section" class="hidden-xs">Training Courses</a></li>
+            <li><a href="#training-section" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Training Courses</a></li>
+
+            <li><a href="#disclaimer" class="hidden-xs">Disclaimer & Privacy</a></li>
+            <li><a href="#disclaimer" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Disclaimer & Privacy</a></li>
+
+            <li><a href="#contact-us" class="hidden-xs">Contact</a></li>
+            <li><a href="#contact-us" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
+
+
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -91,7 +104,7 @@
       <div class="row" id="portfolio">
         <div class="col-lg-8 col-lg-offset-2 text-center">
             <h2 class="bright-title">The Portfolio</h2>
-            <hr class="hr-light">
+            <hr class="hr">
         </div>
       </div>
     </div>
@@ -103,7 +116,7 @@
                 <div>
                   
                   <div class="col-lg-4 col-sm-12 text-center service-box">
-                    <div class="rounded-icon"><font size="12" class="about-resize" color="#FFA500">30</font></div>
+                    <div class="rounded-icon"><font size="6" class="about-resize" color="#b5b5b7">30</font></div>
                     <br><br>
                     HR Practitioner for more than 30 years, heading HR practices in local and MNC Organizations, including public-listed companies
                   </div>
@@ -113,7 +126,7 @@
                     Specializes in Corporate Governance work, apart from HRM
                   </div>
                   <div class="col-lg-4 col-md-12 text-center service-box">
-                    <div class="rounded-icon"><%=image_tag("about-icons/masters-bachelors.png", class:"about-resize")%></div>
+                    <div class="rounded-icon"><%=image_tag("about-icons/mortarboard.png", class:"about-resize")%></div>
                     <br><br>
                     Holds both masters and bachelors degree in Business (HR Specialization)
                   </div>
@@ -130,7 +143,7 @@
                 <div>
                   
                   <div class="col-lg-4 col-sm-12 text-center service-box">
-                    <div class="rounded-icon"><%=image_tag("about-icons/top-in-cohort.png", class:"about-resize")%></div>
+                    <div class="rounded-icon"><%=image_tag("about-icons/certificate-with-medal.png", class:"about-resize")%></div>
                     <br><br>
                     Graduate Diploma in Management and was amongst the top students in the cohort
                   </div>
@@ -140,7 +153,7 @@
                     Adjunct lecturer at a private school teaching undergrade programmes
                   </div>
                   <div class="col-lg-4 col-md-12 text-center service-box">
-                    <div class="rounded-icon"><font size="6.5" class="about-resize" color="#FFA500" style="top: calc(25%);">ACTA</font></div>
+                    <div class="rounded-icon"><font size="5" class="about-resize" color="#b5b5b7" style="top: calc(25%);">ACTA</font></div>
                     <br><br>
                     Obtained Advanced Certificate in Training and Assessment (ACTA) qualifications from the Institute of Adult Learning, Singapore
                   </div>
@@ -164,7 +177,7 @@
     <div class="container"> 
       <div class="row" id="services">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="bright-title">Services</h2>
+            <h2 class="bright-title">The Services</h2>
             <hr>
         </div>
       </div>
@@ -218,27 +231,27 @@
       <div class="row">
         <div class="all-services">
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/cv-profile.png", class:"services-resize")%>
             <br>
             Customized CV<br>
             <font size="2.5pt" color="#B6B6B4"><i>(At a nominal fee to cover for time-cost)</i></font>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/scorecard.png", class:"services-resize")%>
             <br>
             HR Scorecard<br>
             <font size="2.5pt" color="#B6B6B4"><i>(Performance Metrics)</i></font>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/review-policies.png", class:"services-resize")%>
             <br>
             Review and Formulation of HR Policies
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/risk-management.png", class:"services-resize")%>
             <br>
             Enterprise Risk Management
@@ -249,25 +262,25 @@
       <div class="row divider-padding">
         <div class="all-services">
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/hr-tools.png", class:"services-resize")%>
             <br>
             Developing HR Systems and Tools<br>
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/compliance-audit.png", class:"services-resize")%>
             <br>
             HR Compliance Audit
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/outplacement-services.png", class:"services-resize")%>
             <br>
             Outplacement Services
           </div>
 
-          <div class="col-lg-3 col-xs-6 text-center service-box">
+          <div class="col-lg-3 col-xs-12 text-center service-box">
             <%=image_tag("misc-icons/training-courses.png", class:"services-resize")%>
             <br>
             Training Courses
@@ -667,17 +680,17 @@
 
 
           <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-2 col-md-12 contact-info text-center">
+            <div class="col-lg-4 col-xs-1"></div>
+            <div class="col-lg-2 col-xs-5 contact-info text-center">
               <font size="3">
                 <%=image_tag("contact-icons/phone-receiver.png", class:"contact-resize")%><br> 123-456-789
               </font>
             </div>
-            <div class="col-lg-2 col-md-12 contact-info">
+            <div class="col-lg-2 col-xs-5 contact-info">
               <font size="3"><%=image_tag("contact-icons/envelope-of-white-paper.png", class:"contact-resize")%><br> feedback@hr.com
               </font>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4 col-xs-1"></div>
           </div>
 
 
