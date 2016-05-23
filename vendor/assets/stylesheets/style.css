@@ -367,7 +367,7 @@ span.subheader {
 	border-bottom: 1px solid #D1D0CE;
 	margin-top: -5px;
 	position: relative;
-	z-index: -100;
+	z-index: -10;
 }
 
 

@@ -730,15 +730,19 @@ alert("no");
   $('#toggle-glyphicon').hide();
 
   $( "#find-out-more-btn" ).click(function() {
-    $('#toggle-glyphicon').show();
-
+    if($("#toggle-glyphicon").is(":visible")) {
+      $('#toggle-glyphicon').hide();
+    } else {
+      $('#toggle-glyphicon').show();
+    }
   }); //find out more
-
 
   $("#toggle-glyphicon").click(function() {
       $('#find-out-more-btn').click();
       $('#toggle-glyphicon').hide();
   });
+
+
 
 
 }); //end document ready
