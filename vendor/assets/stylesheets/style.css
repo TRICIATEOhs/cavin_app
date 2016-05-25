@@ -126,9 +126,9 @@ hr.hr-mini {
 
 #cover-text {
 	width: 100%;
-	border: 2px solid white;
-	/*border-left:1em solid transparent;
-    border-right:1em solid transparent;*/
+	border: 1px solid white;
+	border-left:1em solid transparent;
+    border-right:1em solid transparent;
     padding-top: 20px;
     padding-bottom: 20px;
 	margin-top: 250px;
@@ -144,7 +144,7 @@ hr.hr-mini {
 #child-cover-desc {
 	font-family: 'DiscoFont';
 	text-align: center;
-	font-size: 100%;
+	font-size: 80%;
 	color: #959492;
 }
 
