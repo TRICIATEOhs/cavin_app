@@ -94,7 +94,7 @@ hr.hr-mini {
 .navbar.transparent ul.nav a:hover { color: #fff !important; }
 
 .divider-padding {
-	padding-bottom: 140px;
+	padding-bottom: 100px;
 }
 
 .divider-padding.courses {
@@ -126,22 +126,26 @@ hr.hr-mini {
 
 #cover-text {
 	width: 100%;
-	text-align: center;
-	font-family: 'DiscoFont';
-	font-size: 5vw;
-	color: #fff;
 	border: 2px solid white;
-	border-left:1em solid transparent;
-    border-right:1em solid transparent;
+	/*border-left:1em solid transparent;
+    border-right:1em solid transparent;*/
     padding-top: 20px;
     padding-bottom: 20px;
 	margin-top: 250px;
 }
 
 #child-cover-text {
-	font-family: 'Poppins', serif;
-	font-size: 1vw;
+	text-align: center;
+	font-family: 'DiscoFont';
+	font-size: 5vw;
 	color: #fff;
+}
+
+#child-cover-desc {
+	font-family: 'DiscoFont';
+	text-align: center;
+	font-size: 1.5vw;
+	color: #959492;
 }
 
 @font-face {
@@ -213,13 +217,6 @@ hr.hr-mini {
     padding-bottom: 20px;
     font-size: 12pt;
     /*color: rgb(102, 102, 102);*/
-}
-
-.services-title {
-	font-size: 13pt;
-	color: #ffffff;
-	font-weight: normal;
-	/*color: #FFA500; /* orange */
 }
 
 .all-services {
@@ -313,7 +310,8 @@ span.subheader {
 }
 
 .training-content {
-	height: 200px;
+	padding-top: 15px;
+	height: 150px;
 }
 
 #training-tabs{
