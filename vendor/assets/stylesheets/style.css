@@ -110,6 +110,19 @@ hr.hr-mini {
 	background-color: #FFFFFF;
 }
 
+/* remove blue outline when button click*/
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+/*button animation*/
+.grow:hover
+{
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .main-cover{
 	height: 730px;
 	/* This is to add black overlay on the cover image*/
@@ -367,6 +380,7 @@ span.subheader {
 	position: relative;
 	z-index: -10;
 }
+
 
 
 

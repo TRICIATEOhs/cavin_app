@@ -68,34 +68,35 @@
 
 
 <!-- Start of About -->
-    <div class="container"> 
-      <div class="row" id="about">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="bright-title">The HR Conundrum</h2>
-            <hr>
-        </div>
+  <div class="container hideme"> 
+    <div class="row" id="about">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="bright-title">The HR Conundrum</h2>
+          <hr>
       </div>
     </div>
+  </div>
 
 
-    <div class="container">
-        <div class="row divider-padding"> 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <div id="child-about">
-                  <p>
-                    Navigating the employment landscape in Singapore, particularly for HR practitioners is arguably not as straightforward as many would envisage. There have been many diverse questions confronting HR practitioners on wide-ranging employment related issues, that continue to befuddle many. The solutions to some of these questions may not be prevailing labour laws which are themselves subject to different interpretations.<br><br>
-                    <font color="#FFA500"><b>So here's the purpose:</b></font><br><br> It is the hope that this portal will be able to provide some constructive views and insights into these questions gleaned from the knowledge and experience of its Founder. It is also the aim that the guidance given will be helpful to practitioners in arriving at practical and workable HR solutions that are tailored to their unique situations and needs.
-                 </p>
-                </div>
-            </div>
+  <div class="container hideme">
+      <div class="row divider-padding"> 
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div id="child-about">
+                <p>
+                  Navigating the employment landscape in Singapore, particularly for HR practitioners is arguably not as straightforward as many would envisage. There have been many diverse questions confronting HR practitioners on wide-ranging employment related issues, that continue to befuddle many. The solutions to some of these questions may not be prevailing labour laws which are themselves subject to different interpretations.<br><br>
+                  <font color="#FFA500"><b>So here's the purpose:</b></font><br><br> It is the hope that this portal will be able to provide some constructive views and insights into these questions gleaned from the knowledge and experience of its Founder. It is also the aim that the guidance given will be helpful to practitioners in arriving at practical and workable HR solutions that are tailored to their unique situations and needs.
+               </p>
+              </div>
+          </div>
 
-        </div>
-    </div>
+      </div>
+  </div>
 <!-- End of About -->
 
 
 
 <!-- Start of experiences -->
+  <div class="hideme">
     <div class="container-fluid experience-div"> 
       <div class="row" id="portfolio">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -134,7 +135,7 @@
             </div>
         </div>
     </div>
-
+  </div>
  <!-- end of experiences -->
 
 
@@ -151,7 +152,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container animate-icons">
 
       <div class="row">
         <div class="all-services">
@@ -237,7 +238,7 @@
 
 
 <!-- Start of training courses -->
-     <div class="container-fluid training-main-cover" id="training-section">
+     <div class="container-fluid training-main-cover animate-btn" id="training-section">
       <div class="col-lg-12 dark-title"><font size="8">Training Courses</font></div>
         <div class="row"> 
           <div class="col-lg-12 training-content dark-content">
@@ -544,22 +545,22 @@
 
     <div class="container">
         <div class="row divider-padding"> 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center hideme">
               <p class="icon-position"><%= image_tag("misc-icons/vision-icon.png", height:"70px", width:"60px")%> <br>
               <span class="icon-title">Vision</span></p>
               <p class="icon-content">If you think this service has been helpful to you, please share it with like-minded HR folks. Ultimately, a HR fraternity can be forged amongst us; one that will be a bellwether of sorts for our local HR industry.</p>  
             </div>
 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center hideme">
               <p class="icon-position"><%= image_tag("misc-icons/disclaimer-icon.png", style:"padding: 10px 0px", height:"70px", width:"47px")%> <br>
               <span class="icon-title">Disclaimer</span></p>
               <p class="icon-content">The comments, views or feedback offered by the Founder are intended as general information only and should not be construed as an authoritative interpretation of the subject matter.  It is also not intended to substitute for legal guidance and should not be acted upon without seeking proper legal counsel or advice.</p>
             </div>
 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-8 col-lg-offset-2 text-center hideme">
               <p class="icon-position"><%= image_tag("misc-icons/privacy-icon.png", style:"padding: 10px 0px", height:"70px", width:"47px")%> <br>
               <span class="icon-title">Privacy & Non-Liability</span></p>
-              <p class="icon-content">Please note that that any of your personal information disclosed will be held in strict confidence and will not be shared with any party without your consent. Users of this service shall be by their conduct deemed to have acknowledged that any inormation (personal or otherwise) <font color="red">sent</font> to this portal are strictly provided on their own volition and that the user shall not hold the provider of this service (including the Founder and his associates) liable for any harm, damage, injury or loss whatsoever arising from <font color="red">orn</font> connection with its use and purpose.</p>
+              <p class="icon-content">Please note that that any of your personal information disclosed will be held in strict confidence and will not be shared with any party without your consent. Users of this service shall be by their conduct deemed to have acknowledged that any information (personal or otherwise) <font color="red">sent</font> to this portal are strictly provided on their own volition and that the user shall not hold the provider of this service (including the Founder and his associates) liable for any harm, damage, injury or loss whatsoever arising from <font color="red">orn</font> connection with its use and purpose.</p>
             </div>
         </div>
     </div>
@@ -588,8 +589,7 @@
 
 
 <!-- start of footer -->
-    <div class="container-fluid">
-
+    <div class="container-fluid hideme">
       <div class="row" id="contact-us">
         <div class="row footer-main-cover">
           <div class="row">
@@ -667,24 +667,59 @@ $( document ).ready(function() {
   });
 
 
+  $('#find-out-more-btn').hide();
+  $('.all-services').hide();
+
+  /* Every time the window is scrolled ... */
+  $(window).scroll( function(){
+  
+      /* Check the location of each desired element */
+      $('.hideme').each( function(i){
+          
+          var bottom_of_object = $(this).position().top;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          /* If the object is completely visible in the window, fade it in */
+          if( bottom_of_window > bottom_of_object ){
+            $(this).addClass('animated fadeIn');
+              //$(this).animate({'opacity':'1'},800);
+
+          }
+          
+      }); 
+
+      $('.animate-btn').each( function(i){
+          
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          /* If the object is completely visible in the window, fade it in */
+          if( bottom_of_window > bottom_of_object ){
+              $('#find-out-more-btn').addClass('animated tada');
+              $('#find-out-more-btn').show();
+          }
+          
+      }); 
+
+      $('.animate-icons').each( function(i){
+          
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          /* If the object is completely visible in the window, fade it in */
+          if( bottom_of_window > bottom_of_object ){
+              $('.all-services').addClass('animated slideInUp');
+              $('.all-services').show();
+          }
+          
+      }); 
+  
+  }); //window scroll function
+
+
   /*
-
-if($("#training-details").is(":visible")) 
-  {
-alert("fds");
-  }     
-else
-  {
-alert("no");
-  }
-
-
-
     This is to check the state of the collapsed courses
   */
-
-
-
 
   $('#toggle-glyphicon').hide();
 
