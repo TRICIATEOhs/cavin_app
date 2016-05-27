@@ -133,13 +133,19 @@ hr.hr-mini {
 }
 
 #cover-text {
+	/*text-align: center;
 	width: 100%;
 	border: 1px solid white;
-	border-left:1em solid transparent;
-    border-right:1em solid transparent;
+	border-left:10em solid transparent;
+    border-right:10em solid transparent;
     padding-top: 20px;
     padding-bottom: 20px;
-	margin-top: 250px;
+	margin-top: 250px;*/
+	font-family: 'DiscoFont';
+	text-align: center;
+	padding-top: 250px;
+	font-size: 40pt;
+	color: #FFFFFF;
 }
 
 #child-cover-text {
@@ -152,9 +158,10 @@ hr.hr-mini {
 #child-cover-desc {
 	font-family: 'DiscoFont';
 	text-align: center;
-	font-size: 80%;
-	/*color: #959492;*/
-	color: #fff;
+	font-size: 15pt;
+	color: #959492;
+	font-weight: bold;
+	/*color: #fff;*/
 }
 
 @font-face {
