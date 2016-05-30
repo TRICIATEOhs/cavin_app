@@ -23,6 +23,7 @@ body {
 	font-family: 'Lato', serif;
 	font-size: 15pt;
 	color: rgb(102, 102, 102);
+	overflow-x:hidden;
 }
 
 /*
