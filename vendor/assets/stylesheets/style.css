@@ -133,6 +133,11 @@ hr.hr-mini {
 
 }
 
+.logo-text {
+	font-family: 'DiscoFont';
+	font-size: 18pt;
+}
+
 #cover-text {
 	/*text-align: center;
 	width: 100%;

@@ -19,20 +19,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand logo-text" href="#">GET<font color="FFA500"><b>HR</b></font>RIGHT</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#about" class="hidden-xs">About</a></li>
-            <li><a href="#about" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">About</a></li>
+            <li><a href="#hr-conundrum" class="hidden-xs">The HR Conundrum</a></li>
+            <li><a href="#hr-conundrum" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">The HR Conundrum</a></li>
 
-            <li><a href="#portfolio" class="hidden-xs">Portfolio</a></li>
-            <li><a href="#portfolio" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a></li>
+            <li><a href="#portfolio" class="hidden-xs">About the Founder</a></li>
+            <li><a href="#portfolio" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">About the Founder</a></li>
 
-            <li><a href="#services" class="hidden-xs">Services</a></li>
-            <li><a href="#services" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Services</a></li>
+            <li><a href="#services" class="hidden-xs">Our Services</a></li>
+            <li><a href="#services" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Our Services</a></li>
 
             <li><a href="#training-section" class="hidden-xs">Training Courses</a></li>
             <li><a href="#training-section" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Training Courses</a></li>
@@ -40,8 +40,8 @@
             <li><a href="#disclaimer" class="hidden-xs">Disclaimer & Privacy</a></li>
             <li><a href="#disclaimer" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Disclaimer & Privacy</a></li>
 
-            <li><a href="#contact-us" class="hidden-xs">Contact</a></li>
-            <li><a href="#contact-us" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
+            <li><a href="#contact-us" class="hidden-xs">Contact Us</a></li>
+            <li><a href="#contact-us" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contact Us</a></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -65,7 +65,7 @@
 
 <!-- Start of About -->
   <div class="container hideme"> 
-    <div class="row" id="about">
+    <div class="row" id="hr-conundrum">
       <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2 class="bright-title">The HR Conundrum</h2>
           <hr>
@@ -625,7 +625,7 @@ $( document ).ready(function() {
   //to make navbar transparent at the top but opaque at the bottom
   function remove_navbar_transparent() {
       var window_top = $(window).scrollTop();
-      var div_top = $('#about').offset().top;
+      var div_top = $('#hr-conundrum').offset().top;
       if (window_top > div_top) {
           $('#main-navbar').removeClass('transparent');
       } else {
